@@ -1,0 +1,58 @@
+{
+  "timestamp": 1759374485.7456253,
+  "total_tests": 5,
+  "successful_tests": 5,
+  "failed_tests": 0,
+  "results": [
+    {
+      "name": "baseline_1client",
+      "success": true,
+      "duration": 14.52406907081604,
+      "avg_cpu": 0.0,
+      "peak_cpu": 0.0,
+      "avg_memory": 52.0,
+      "peak_memory": 52.0,
+      "errors": []
+    },
+    {
+      "name": "baseline_1client_10khz",
+      "success": true,
+      "duration": 14.522785663604736,
+      "avg_cpu": 0.0,
+      "peak_cpu": 0.0,
+      "avg_memory": 52.1,
+      "peak_memory": 52.1,
+      "errors": []
+    },
+    {
+      "name": "multiprocess_2workers",
+      "success": true,
+      "duration": 15.030011415481567,
+      "avg_cpu": 0.0,
+      "peak_cpu": 0.0,
+      "avg_memory": 52.2,
+      "peak_memory": 52.2,
+      "errors": []
+    },
+    {
+      "name": "multiprocess_4workers",
+      "success": true,
+      "duration": 16.050480127334595,
+      "avg_cpu": 0.0,
+      "peak_cpu": 0.0,
+      "avg_memory": 52.6,
+      "peak_memory": 52.6,
+      "errors": []
+    },
+    {
+      "name": "stress_test",
+      "success": true,
+      "duration": 23.111726999282837,
+      "avg_cpu": 0.0,
+      "peak_cpu": 0.0,
+      "avg_memory": 52.7,
+      "peak_memory": 52.7,
+      "errors": []
+    }
+  ]
+}

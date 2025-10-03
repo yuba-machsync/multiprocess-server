@@ -1,0 +1,158 @@
+services:
+  server:
+    build: .
+    command: python server.py --host 0.0.0.0 --port 8888 --workers 4 --max-clients 10
+    ports:
+      - "8888:8888"
+    networks:
+      - optimized_network
+    deploy:
+      resources:
+        limits:
+          cpus: '6.0'
+          memory: 4G
+        reservations:
+          cpus: '3.0'
+          memory: 2G
+    ulimits:
+      nofile:
+        soft: 131072
+        hard: 131072
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "python", "-c", "import socket; s=socket.socket(); s.connect(('localhost', 8888)); s.close()"]
+      interval: 5s
+      timeout: 3s
+      retries: 3
+      start_period: 10s
+
+  client-1:
+    build: .
+    command: python client_simulator.py --host server --port 8888 --clients 1 --rate 6000 --duration 30
+    depends_on:
+      server:
+        condition: service_healthy
+    networks:
+      - optimized_network
+    deploy:
+      resources:
+        limits:
+          cpus: '2.0'
+          memory: 1.5G
+        reservations:
+          cpus: '1.5'
+          memory: 1G
+    ulimits:
+      nofile:
+        soft: 65536
+        hard: 65536
+    restart: unless-stopped
+    environment:
+      - CLIENT_STARTUP_DELAY=0
+
+  client-2:
+    build: .
+    command: python client_simulator.py --host server --port 8888 --clients 1 --rate 6000 --duration 30
+    depends_on:
+      server:
+        condition: service_healthy
+    networks:
+      - optimized_network
+    deploy:
+      resources:
+        limits:
+          cpus: '2.0'
+          memory: 1.5G
+        reservations:
+          cpus: '1.5'
+          memory: 1G
+    ulimits:
+      nofile:
+        soft: 65536
+        hard: 65536
+    restart: unless-stopped
+    environment:
+      - CLIENT_STARTUP_DELAY=1
+
+  client-3:
+    build: .
+    command: python client_simulator.py --host server --port 8888 --clients 1 --rate 6000 --duration 30
+    depends_on:
+      server:
+        condition: service_healthy
+    networks:
+      - optimized_network
+    deploy:
+      resources:
+        limits:
+          cpus: '2.0'
+          memory: 1.5G
+        reservations:
+          cpus: '1.5'
+          memory: 1G
+    ulimits:
+      nofile:
+        soft: 65536
+        hard: 65536
+    restart: unless-stopped
+    environment:
+      - CLIENT_STARTUP_DELAY=2
+
+  client-4:
+    build: .
+    command: python client_simulator.py --host server --port 8888 --clients 1 --rate 6000 --duration 30
+    depends_on:
+      server:
+        condition: service_healthy
+    networks:
+      - optimized_network
+    deploy:
+      resources:
+        limits:
+          cpus: '2.0'
+          memory: 1.5G
+        reservations:
+          cpus: '1.5'
+          memory: 1G
+    ulimits:
+      nofile:
+        soft: 65536
+        hard: 65536
+    restart: unless-stopped
+    environment:
+      - CLIENT_STARTUP_DELAY=3
+
+  client-5:
+    build: .
+    command: python client_simulator.py --host server --port 8888 --clients 1 --rate 6000 --duration 30
+    depends_on:
+      server:
+        condition: service_healthy
+    networks:
+      - optimized_network
+    deploy:
+      resources:
+        limits:
+          cpus: '2.0'
+          memory: 1.5G
+        reservations:
+          cpus: '1.5'
+          memory: 1G
+    ulimits:
+      nofile:
+        soft: 65536
+        hard: 65536
+    restart: unless-stopped
+    environment:
+      - CLIENT_STARTUP_DELAY=4
+
+networks:
+  optimized_network:
+    driver: bridge
+    driver_opts:
+      com.docker.network.bridge.enable_icc: "true"
+      com.docker.network.bridge.enable_ip_masquerade: "true"
+      com.docker.network.driver.mtu: "1500"
+    ipam:
+      config:
+        - subnet: 172.20.0.0/16

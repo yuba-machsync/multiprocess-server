@@ -1,0 +1,23 @@
+{
+  "config": {
+    "name": "stress_test",
+    "server_workers": 4,
+    "num_clients": 8,
+    "packet_rate": 1000,
+    "packet_size": 32,
+    "duration": 15,
+    "description": "Stress test: 8 clients, 4 workers, 1kHz each"
+  },
+  "result": {
+    "success": true,
+    "duration": 23.111726999282837,
+    "server_packets": 0,
+    "client_packets": 0,
+    "packet_loss_rate": 0,
+    "avg_cpu": 0.0,
+    "peak_cpu": 0.0,
+    "avg_memory": 52.7,
+    "peak_memory": 52.7,
+    "errors": []
+  }
+}

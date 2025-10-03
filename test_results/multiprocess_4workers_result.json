@@ -1,0 +1,23 @@
+{
+  "config": {
+    "name": "multiprocess_4workers",
+    "server_workers": 4,
+    "num_clients": 4,
+    "packet_rate": 2500,
+    "packet_size": 32,
+    "duration": 10,
+    "description": "Multiprocess: 4 clients, 4 workers, 2.5kHz each"
+  },
+  "result": {
+    "success": true,
+    "duration": 16.050480127334595,
+    "server_packets": 0,
+    "client_packets": 0,
+    "packet_loss_rate": 0,
+    "avg_cpu": 0.0,
+    "peak_cpu": 0.0,
+    "avg_memory": 52.6,
+    "peak_memory": 52.6,
+    "errors": []
+  }
+}

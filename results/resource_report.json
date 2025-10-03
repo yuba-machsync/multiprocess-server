@@ -1,0 +1,27 @@
+{
+  "monitoring_duration": 20,
+  "docker_stats": {
+    "containers": {
+      "docker-mock-services-1": {
+        "avg_cpu": 0.02,
+        "max_cpu": 0.03,
+        "avg_memory_mb": 35.95,
+        "max_memory_mb": 35.95
+      }
+    },
+    "overall_avg_cpu": 0.02,
+    "overall_max_cpu": 0.03,
+    "overall_avg_memory_mb": 35.95,
+    "overall_max_memory_mb": 35.95
+  },
+  "system_stats": {
+    "avg_cpu_percent": 9.633333333333333,
+    "max_cpu_percent": 31.9,
+    "avg_memory_percent": 57.51666666666667,
+    "max_memory_percent": 57.7,
+    "samples": 12
+  },
+  "recommendations": [
+    "Low CPU usage - could increase client rates or reduce CPU limits"
+  ]
+}

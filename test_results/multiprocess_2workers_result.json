@@ -1,0 +1,23 @@
+{
+  "config": {
+    "name": "multiprocess_2workers",
+    "server_workers": 2,
+    "num_clients": 2,
+    "packet_rate": 5000,
+    "packet_size": 32,
+    "duration": 10,
+    "description": "Multiprocess: 2 clients, 2 workers, 5kHz each"
+  },
+  "result": {
+    "success": true,
+    "duration": 15.030011415481567,
+    "server_packets": 0,
+    "client_packets": 0,
+    "packet_loss_rate": 0,
+    "avg_cpu": 0.0,
+    "peak_cpu": 0.0,
+    "avg_memory": 52.2,
+    "peak_memory": 52.2,
+    "errors": []
+  }
+}

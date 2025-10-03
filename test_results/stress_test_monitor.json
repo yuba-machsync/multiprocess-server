@@ -1,0 +1,407 @@
+{
+  "system_metrics": [
+    {
+      "timestamp": 1759374463.3141642,
+      "cpu_percent": 0.0,
+      "memory_percent": 52.7,
+      "memory_available": 15989829632,
+      "memory_used": 17829715968,
+      "network_sent": 382926132,
+      "network_recv": 1316291446,
+      "disk_read": 14377825792,
+      "disk_write": 17169776128,
+      "process_count": 432,
+      "load_avg": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "process_metrics": {
+    "3484": [
+      {
+        "pid": 3484,
+        "name": "python.exe",
+        "cpu_percent": 0.0,
+        "memory_percent": 0.07717345557712046,
+        "memory_rss": 26099712,
+        "memory_vms": 16007168,
+        "num_threads": 3,
+        "create_time": 1759374139.561254
+      }
+    ],
+    "4532": [
+      {
+        "pid": 4532,
+        "name": "python.exe",
+        "cpu_percent": 0.0,
+        "memory_percent": 0.08192110067853779,
+        "memory_rss": 27705344,
+        "memory_vms": 17113088,
+        "num_threads": 2,
+        "create_time": 1759372088.8368323
+      }
+    ],
+    "4624": [
+      {
+        "pid": 4624,
+        "name": "python.exe",
+        "cpu_percent": 0.0,
+        "memory_percent": 0.06669714687118682,
+        "memory_rss": 22556672,
+        "memory_vms": 14950400,
+        "num_threads": 1,
+        "create_time": 1759374214.4814856
+      }
+    ],
+    "5780": [
+      {
+        "pid": 5780,
+        "name": "python.exe",
+        "cpu_percent": 0.0,
+        "memory_percent": 0.07102089508854903,
+        "memory_rss": 24018944,
+        "memory_vms": 15822848,
+        "num_threads": 5,
+        "create_time": 1759374462.6443567
+      }
+    ],
+    "6256": [
+      {
+        "pid": 6256,
+        "name": "python.exe",
+        "cpu_percent": 0.0,
+        "memory_percent": 0.08103697289179426,
+        "memory_rss": 27406336,
+        "memory_vms": 16793600,
+        "num_threads": 2,
+        "create_time": 1759372088.8311465
+      }
+    ],
+    "6592": [
+      {
+        "pid": 6592,
+        "name": "python.exe",
+        "cpu_percent": 0.0,
+        "memory_percent": 0.06781139010927456,
+        "memory_rss": 22933504,
+        "memory_vms": 15417344,
+        "num_threads": 4,
+        "create_time": 1759374460.738636
+      }
+    ],
+    "9052": [
+      {
+        "pid": 9052,
+        "name": "python.exe",
+        "cpu_percent": 0.0,
+        "memory_percent": 0.07741568236800911,
+        "memory_rss": 26181632,
+        "memory_vms": 17154048,
+        "num_threads": 2,
+        "create_time": 1759374214.4746146
+      }
+    ],
+    "9372": [
+      {
+        "pid": 9372,
+        "name": "python.exe",
+        "cpu_percent": 0.0,
+        "memory_percent": 0.08150931513402711,
+        "memory_rss": 27566080,
+        "memory_vms": 17100800,
+        "num_threads": 2,
+        "create_time": 1759372196.8895955
+      }
+    ],
+    "12396": [
+      {
+        "pid": 12396,
+        "name": "python.exe",
+        "cpu_percent": 0.0,
+        "memory_percent": 0.07674955869306535,
+        "memory_rss": 25956352,
+        "memory_vms": 15880192,
+        "num_threads": 2,
+        "create_time": 1759374392.578654
+      }
+    ],
+    "13576": [
+      {
+        "pid": 13576,
+        "name": "python.exe",
+        "cpu_percent": 0.0,
+        "memory_percent": 0.07719767825620934,
+        "memory_rss": 26107904,
+        "memory_vms": 16166912,
+        "num_threads": 5,
+        "create_time": 1759374460.7349133
+      }
+    ],
+    "18964": [
+      {
+        "pid": 18964,
+        "name": "python.exe",
+        "cpu_percent": 0.0,
+        "memory_percent": 0.08378624696838033,
+        "memory_rss": 28336128,
+        "memory_vms": 17903616,
+        "num_threads": 7,
+        "create_time": 1759374460.6337173
+      }
+    ],
+    "19896": [
+      {
+        "pid": 19896,
+        "name": "python.exe",
+        "cpu_percent": 0.0,
+        "memory_percent": 0.10165047279641748,
+        "memory_rss": 34377728,
+        "memory_vms": 23699456,
+        "num_threads": 6,
+        "create_time": 1759374462.639535
+      }
+    ],
+    "23968": [
+      {
+        "pid": 23968,
+        "name": "python.exe",
+        "cpu_percent": 0.0,
+        "memory_percent": 0.07131156723761539,
+        "memory_rss": 24117248,
+        "memory_vms": 16187392,
+        "num_threads": 1,
+        "create_time": 1759372088.8425176
+      }
+    ],
+    "25468": [
+      {
+        "pid": 25468,
+        "name": "python.exe",
+        "cpu_percent": 0.0,
+        "memory_percent": 0.07765790915889775,
+        "memory_rss": 26263552,
+        "memory_vms": 17293312,
+        "num_threads": 5,
+        "create_time": 1759374442.6856425
+      }
+    ],
+    "26292": [
+      {
+        "pid": 26292,
+        "name": "python.exe",
+        "cpu_percent": 0.0,
+        "memory_percent": 0.06764183135565252,
+        "memory_rss": 22876160,
+        "memory_vms": 15364096,
+        "num_threads": 4,
+        "create_time": 1759374442.6818929
+      }
+    ],
+    "26812": [
+      {
+        "pid": 26812,
+        "name": "python.exe",
+        "cpu_percent": 0.0,
+        "memory_percent": 0.07678589271169864,
+        "memory_rss": 25968640,
+        "memory_vms": 16846848,
+        "num_threads": 2,
+        "create_time": 1759374214.4847956
+      }
+    ],
+    "27368": [
+      {
+        "pid": 27368,
+        "name": "python.exe",
+        "cpu_percent": 0.0,
+        "memory_percent": 0.07708867620030944,
+        "memory_rss": 26071040,
+        "memory_vms": 16953344,
+        "num_threads": 2,
+        "create_time": 1759374214.4782407
+      }
+    ],
+    "28280": [
+      {
+        "pid": 28280,
+        "name": "python.exe",
+        "cpu_percent": 0.0,
+        "memory_percent": 0.07678589271169864,
+        "memory_rss": 25968640,
+        "memory_vms": 15982592,
+        "num_threads": 5,
+        "create_time": 1759374460.7316768
+      }
+    ],
+    "28376": [
+      {
+        "pid": 28376,
+        "name": "python.exe",
+        "cpu_percent": 0.0,
+        "memory_percent": 0.0811217522686053,
+        "memory_rss": 27435008,
+        "memory_vms": 16838656,
+        "num_threads": 2,
+        "create_time": 1759372088.8259668
+      }
+    ],
+    "29332": [
+      {
+        "pid": 29332,
+        "name": "python.exe",
+        "cpu_percent": 0.0,
+        "memory_percent": 0.07756101844254229,
+        "memory_rss": 26230784,
+        "memory_vms": 17240064,
+        "num_threads": 5,
+        "create_time": 1759374442.6742032
+      }
+    ],
+    "29356": [
+      {
+        "pid": 29356,
+        "name": "python.exe",
+        "cpu_percent": 0.0,
+        "memory_percent": 0.07763368647980888,
+        "memory_rss": 26255360,
+        "memory_vms": 17268736,
+        "num_threads": 5,
+        "create_time": 1759374442.6779327
+      }
+    ],
+    "30132": [
+      {
+        "pid": 30132,
+        "name": "python.exe",
+        "cpu_percent": 0.0,
+        "memory_percent": 0.07693122878623182,
+        "memory_rss": 26017792,
+        "memory_vms": 15933440,
+        "num_threads": 2,
+        "create_time": 1759374409.113086
+      }
+    ],
+    "30252": [
+      {
+        "pid": 30252,
+        "name": "python.exe",
+        "cpu_percent": 0.0,
+        "memory_percent": 0.07626510511128806,
+        "memory_rss": 25792512,
+        "memory_vms": 16715776,
+        "num_threads": 2,
+        "create_time": 1759374425.642832
+      }
+    ],
+    "30740": [
+      {
+        "pid": 30740,
+        "name": "python.exe",
+        "cpu_percent": 0.0,
+        "memory_percent": 0.07638621850673238,
+        "memory_rss": 25833472,
+        "memory_vms": 16674816,
+        "num_threads": 2,
+        "create_time": 1759374351.510305
+      }
+    ],
+    "30804": [
+      {
+        "pid": 30804,
+        "name": "python.exe",
+        "cpu_percent": 0.0,
+        "memory_percent": 0.07760946380072002,
+        "memory_rss": 26247168,
+        "memory_vms": 17141760,
+        "num_threads": 2,
+        "create_time": 1759374351.514577
+      }
+    ],
+    "30872": [
+      {
+        "pid": 30872,
+        "name": "python.exe",
+        "cpu_percent": 0.0,
+        "memory_percent": 0.07082711365583812,
+        "memory_rss": 23953408,
+        "memory_vms": 15699968,
+        "num_threads": 5,
+        "create_time": 1759374463.148944
+      }
+    ],
+    "31004": [
+      {
+        "pid": 31004,
+        "name": "python.exe",
+        "cpu_percent": 0.0,
+        "memory_percent": 0.08077052342181676,
+        "memory_rss": 27316224,
+        "memory_vms": 16809984,
+        "num_threads": 2,
+        "create_time": 1759372018.9296532
+      }
+    ],
+    "31076": [
+      {
+        "pid": 31076,
+        "name": "python.exe",
+        "cpu_percent": 0.0,
+        "memory_percent": 0.07177179814030381,
+        "memory_rss": 24272896,
+        "memory_vms": 16355328,
+        "num_threads": 1,
+        "create_time": 1759372196.8944511
+      }
+    ],
+    "31156": [
+      {
+        "pid": 31156,
+        "name": "python3.exe",
+        "cpu_percent": 0.0,
+        "memory_percent": 0.0663822520430316,
+        "memory_rss": 22450176,
+        "memory_vms": 16392192,
+        "num_threads": 1,
+        "create_time": 1759371710.2954464
+      }
+    ],
+    "31268": [
+      {
+        "pid": 31268,
+        "name": "python.exe",
+        "cpu_percent": 0.0,
+        "memory_percent": 0.07705234218167614,
+        "memory_rss": 26058752,
+        "memory_vms": 16080896,
+        "num_threads": 5,
+        "create_time": 1759374460.7278724
+      }
+    ],
+    "32632": [
+      {
+        "pid": 32632,
+        "name": "python.exe",
+        "cpu_percent": 0.0,
+        "memory_percent": 0.06598257783806534,
+        "memory_rss": 22315008,
+        "memory_vms": 15888384,
+        "num_threads": 1,
+        "create_time": 1759374392.4114466
+      }
+    ],
+    "32700": [
+      {
+        "pid": 32700,
+        "name": "python.exe",
+        "cpu_percent": 0.0,
+        "memory_percent": 0.07697967414440955,
+        "memory_rss": 26034176,
+        "memory_vms": 16977920,
+        "num_threads": 2,
+        "create_time": 1759374425.6391792
+      }
+    ]
+  }
+}

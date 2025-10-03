@@ -1,0 +1,23 @@
+{
+  "config": {
+    "name": "baseline_1client_10khz",
+    "server_workers": 1,
+    "num_clients": 1,
+    "packet_rate": 10000,
+    "packet_size": 32,
+    "duration": 10,
+    "description": "High frequency: 1 client, 1 worker, 10kHz"
+  },
+  "result": {
+    "success": true,
+    "duration": 14.522785663604736,
+    "server_packets": 0,
+    "client_packets": 0,
+    "packet_loss_rate": 0,
+    "avg_cpu": 0.0,
+    "peak_cpu": 0.0,
+    "avg_memory": 52.1,
+    "peak_memory": 52.1,
+    "errors": []
+  }
+}
