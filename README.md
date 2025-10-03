@@ -137,7 +137,7 @@ The system is now production-ready with:
 
 ## 📋 Requirements
 
-- Python 3.11+
+- Python 3.8+
 - Docker and Docker Compose
 - psutil (for system monitoring)
 - matplotlib (for performance charts)
