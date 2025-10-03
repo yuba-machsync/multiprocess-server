@@ -83,10 +83,11 @@ deploy:
 ## Performance Metrics
 
 ### Expected Performance
-- **Target Rate**: 6000 packets/second per client
-- **Packet Size**: 32 bytes
+- **Target Rate**: 10,050 packets/second per client
+- **Packet Size**: 16 bytes
+- **Batch Size**: 804 packets per batch
 - **Concurrent Clients**: 5 clients
-- **Total Throughput**: ~30,000 packets/second
+- **Total Throughput**: ~50,250 packets/second
 - **Success Rate**: >99%
 
 ### Key Metrics
@@ -102,9 +103,9 @@ deploy:
 
 # Client statistics
 {
-    'packets_sent': 30000,
-    'bytes_sent': 960000,
-    'rate': 6000.0,
+    'packets_sent': 301500,
+    'bytes_sent': 4824000,
+    'rate': 10050.0,
     'errors': 0
 }
 ```
@@ -381,9 +382,9 @@ class ClientStats:
 ### Client Parameters
 | Parameter | Default | Description |
 |-----------|---------|-------------|
-| `target_rate` | 6000.0 | Target packets per second |
-| `packet_size` | 32 | Packet size in bytes |
-| `batch_size` | 30 | Packets per batch |
+| `target_rate` | 10050.0 | Target packets per second |
+| `packet_size` | 16 | Packet size in bytes |
+| `batch_size` | 804 | Packets per batch |
 | `duration` | 30 | Transmission duration in seconds |
 
 ### Docker Parameters
@@ -402,9 +403,9 @@ class ClientStats:
 - **OS**: Linux preferred, Windows supported
 
 ### Expected Performance
-- **Single Client**: 6000 packets/second
-- **5 Clients**: 30,000 packets/second
-- **10 Clients**: 60,000 packets/second
+- **Single Client**: 10,050 packets/second
+- **5 Clients**: 50,250 packets/second
+- **10 Clients**: 100,500 packets/second
 - **Latency**: <1ms average
 - **Error Rate**: <0.1%
 

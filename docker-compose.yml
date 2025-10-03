@@ -28,7 +28,7 @@ services:
 
   client-1:
     build: .
-    command: python client_simulator.py --host server --port 8888 --clients 1 --rate 6000 --duration 30
+    command: python client_simulator.py --host server --port 8888 --clients 1 --rate 10050 --duration 30
     depends_on:
       server:
         condition: service_healthy
@@ -52,7 +52,7 @@ services:
 
   client-2:
     build: .
-    command: python client_simulator.py --host server --port 8888 --clients 1 --rate 6000 --duration 30
+    command: python client_simulator.py --host server --port 8888 --clients 1 --rate 10050 --duration 30
     depends_on:
       server:
         condition: service_healthy
@@ -76,7 +76,7 @@ services:
 
   client-3:
     build: .
-    command: python client_simulator.py --host server --port 8888 --clients 1 --rate 6000 --duration 30
+    command: python client_simulator.py --host server --port 8888 --clients 1 --rate 10050 --duration 30
     depends_on:
       server:
         condition: service_healthy
@@ -100,7 +100,7 @@ services:
 
   client-4:
     build: .
-    command: python client_simulator.py --host server --port 8888 --clients 1 --rate 6000 --duration 30
+    command: python client_simulator.py --host server --port 8888 --clients 1 --rate 10050 --duration 30
     depends_on:
       server:
         condition: service_healthy
@@ -124,7 +124,7 @@ services:
 
   client-5:
     build: .
-    command: python client_simulator.py --host server --port 8888 --clients 1 --rate 6000 --duration 30
+    command: python client_simulator.py --host server --port 8888 --clients 1 --rate 10050 --duration 30
     depends_on:
       server:
         condition: service_healthy

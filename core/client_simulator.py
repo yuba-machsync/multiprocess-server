@@ -36,8 +36,8 @@ class OptimizedClient:
         self.thread = None
         
         # Performance optimizations
-        self.packet_data = b'X' * 32  # Pre-allocated packet data
-        self.batch_size = max(1, int(target_rate / 200))  # Smaller batch size for better stability
+        self.packet_data = b'X' * 16  # Pre-allocated packet data (16 bytes)
+        self.batch_size = 804  # Fixed batch size as per specifications
         self.send_timeout = 0.001  # 1ms timeout for non-blocking sends
         
         # Setup logging

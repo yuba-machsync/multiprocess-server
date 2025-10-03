@@ -14,11 +14,12 @@
 
 ## System Overview
 
-This system demonstrates a high-performance multiprocessing server architecture designed to handle multiple concurrent clients with high-frequency data transmission (10kHz, 32-byte packets). The system uses Python multiprocessing, Docker containerization, and optimized networking to achieve scalable performance.
+This system demonstrates a high-performance multiprocessing server architecture designed to handle multiple concurrent clients with high-frequency data transmission (10,050 packets/second, 16-byte packets). The system uses Python multiprocessing, Docker containerization, and optimized networking to achieve scalable performance.
 
 ### Key Characteristics
-- **Target Performance**: 10kHz data rate per client
-- **Packet Size**: 32 bytes
+- **Target Performance**: 10,050 packets per second per client
+- **Packet Size**: 16 bytes
+- **Batch Size**: 804 packets per batch
 - **Concurrent Clients**: Up to 10 clients
 - **Architecture**: Master-worker multiprocessing pattern
 - **Containerization**: Docker with optimized resource allocation
